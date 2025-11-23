@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Binary Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="matrix-bg"></div>
+    <div class="container">
+        <h1 class="glitch" data-text="BINARY_CONVERTER">BINARY_CONVERTER</h1>
+
+        <div class="converter-box">
+            <div class="input-group">
+                <label for="TextInput">INPUT_TEXT</label>
+                <textarea id="TextInput" placeholder="Type something here..."></textarea>
+            </div>
+
+            <div class="controls">
+                <button id="ConvertBtn">ENCODE >></button>
+            </div>
+
+            <div class="input-group">
+                <label for="BinaryOutput">BINARY_OUTPUT</label>
+                <textarea id="BinaryOutput" readonly placeholder="01010101..."></textarea>
+                <button id="CopyBtn" class="secondary-btn">COPY_BINARY</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
